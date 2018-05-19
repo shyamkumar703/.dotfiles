@@ -19,7 +19,7 @@ for file in ${(M)config_files:#*/path.zsh}; do
 done
 
 # If using POWERLEVEL9K, the MODE should be set before sourcing the plugins.
-POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_MODE='awesome-patched'
 
 # load antibody plugins
 source ~/.zsh_plugins.sh
