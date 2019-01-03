@@ -31,5 +31,5 @@ POWERLEVEL9K_MULTILINE_SECOND_PROMPT_PREFIX="$ "
 
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon root_indicator time dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon root_indicator time dir anaconda vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(history status background_jobs)
