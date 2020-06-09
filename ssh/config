@@ -3,3 +3,10 @@ Host *
   StrictHostKeyChecking no
 
 Include ~/.ssh/config.local
+
+Host streisand
+   User           forward
+   Port           443
+   HostName       3.134.171.44
+   IdentitiesOnly yes
+   IdentityFile   ~/.ssh/streisand_rsa
