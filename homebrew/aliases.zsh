@@ -9,6 +9,7 @@ if which brew >/dev/null 2>&1; then
 			;;
 		bump)
 			command brew update
+			command brew fetch "$(command brew outdated)"
 			command brew upgrade
 			brew cleanup
 			;;
